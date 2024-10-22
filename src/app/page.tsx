@@ -1,5 +1,7 @@
-const page = () => {
-  return <div>Hello, Duniya!</div>;
+import Dashboard from "@/app/dashboard/page";
+
+const Home = () => {
+  return <Dashboard />;
 };
 
-export default page;
+export default Home;
