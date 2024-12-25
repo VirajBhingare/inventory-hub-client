@@ -6,7 +6,7 @@ import DashboardWrapper from "@/app/dashboardWrapper";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Inventory Hub",
+  title: "InventoryHub. | Home",
   description: "The one-stop portal to manage your Inventory",
 };
 
