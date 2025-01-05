@@ -29,7 +29,7 @@ const CardPopularProducts = () => {
                     </div>
                     <div className="flex items-center text-sm">
                       <span className="font-bold text-blue-500 text-xs">
-                        ₹ {product.price}
+                        $ {product.price}
                       </span>
                       <span className="mx-2">|</span>
                       <Rating rating={product.rating || 0} />
