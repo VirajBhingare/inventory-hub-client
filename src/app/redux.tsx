@@ -47,6 +47,7 @@ const persistConfig = {
   key: "root",
   storage,
   whitelist: ["global"],
+  setTimeout: 100,
 };
 const rootReducer = combineReducers({
   global: globalReducer,

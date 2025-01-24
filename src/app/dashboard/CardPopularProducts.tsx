@@ -6,7 +6,7 @@ const CardPopularProducts = () => {
   const { data: dashboardMetrics, isLoading } = useGetDashboardMetricsQuery();
 
   return (
-    <div className="row-span-3 xl:row-span-6 rounded-xl bg-white shadow-md pb-16">
+    <div className="row-span-3 xl:row-span-6 rounded-2xl bg-white shadow-xl pb-16">
       {isLoading ? (
         <div className="m-5">Loading...</div>
       ) : (

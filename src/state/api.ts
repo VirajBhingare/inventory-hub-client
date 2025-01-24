@@ -32,7 +32,7 @@ export interface ExpenseByCategorySummary {
   expenseByCategory: string;
   expenseSummaryId: string;
   category: string;
-  amount: bigint;
+  amount: string;
   date: string;
 }
 

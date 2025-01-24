@@ -17,13 +17,15 @@ const CardPurchaseSummary = () => {
   const lastDataPoint = purchaseData[purchaseData.length - 1] || null;
 
   return (
-    <div className="flex flex-col justify-between row-span-2 xl:row-span-3 col-span-1 md:col-span-2 xl:col-span-1 bg-white rounded-xl shadow-md">
+    <div className="flex flex-col justify-between row-span-2 xl:row-span-3 col-span-1 md:col-span-2 xl:col-span-1 bg-white rounded-2xl shadow-xl">
       {isLoading ? (
         <div className="m-5">Loading...</div>
       ) : (
         <>
           {/* HEADER */}
-          <h2 className="font-semibold text-lg px-7 pb-2">Purchase Summary</h2>
+          <h2 className="font-semibold text-lg px-7 pb-2 pt-5">
+            Purchase Summary
+          </h2>
           <hr />
           {/* BODY */}
           <div className="mt-4 px-7 mb-4">
